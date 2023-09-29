@@ -14,7 +14,7 @@ echo "パスワードを入力してください："
 read -s password
 
 # データをpassword.txtに書く
-echo "$service_name:$username:$password" >> password.txt
+echo "$service_name:$user_name:$password" >> password.txt
 
 echo "Thank you!"
 
